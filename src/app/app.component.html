@@ -1,0 +1,128 @@
+<div style="text-align: center;" class="text-primary">
+  <h1>Hola {{ destino }}</h1>
+  <app-fechaactual></app-fechaactual>
+  <app-copyright></app-copyright>
+</div>
+
+<div class="container accordion" id="accordionExample">
+  <!-- Data Binding -->
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h2 class="mb-0">
+        <button
+          class="btn btn-link"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapseOne"
+          aria-expanded="true"
+          aria-controls="collapseOne"
+        >
+          Data Binding
+        </button>
+      </h2>
+    </div>
+    <div
+      id="collapseOne"
+      class="collapse show"
+      aria-labelledby="headingOne"
+      data-parent="#accordionExample"
+    >
+      <div class="card-body">
+        <div class="card-columns">
+
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-title text-center">
+                Ejemplo de Interpolación con Objeto
+              </h3>
+              <hr />
+              <app-viewmodelo></app-viewmodelo>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-title text-center">
+                Ejemplo de Interpolación con Método
+              </h3>
+              <hr />
+              <app-ejmetodo></app-ejmetodo>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-title text-center">
+                Ejemplo de Property Binding
+              </h3>
+              <hr />
+              <app-ejpropertybinding></app-ejpropertybinding>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-title text-center">Ejemplo de Event Binding</h3>
+              <hr />
+              <app-ejeventbinding></app-ejeventbinding>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-title text-center">Ejemplo de Two Way Binding</h3>
+              <hr />
+              <app-ej2waybinding></app-ej2waybinding>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Directivas -->
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h2 class="mb-0">
+        <button
+          class="btn btn-link collapsed"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapseTwo"
+          aria-expanded="false"
+          aria-controls="collapseTwo"
+        >
+          Directivas
+        </button>
+      </h2>
+    </div>
+    <div
+      id="collapseTwo"
+      class="collapse"
+      aria-labelledby="headingTwo"
+      data-parent="#accordionExample"
+    >
+      <div class="card-body">
+        <div class="card-columns">
+          <!-- ngIf -->
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-title text-center">Ejemplo de directiva ngIf</h3>
+              <hr />
+              <app-ejdirectivangif></app-ejdirectivangif>
+            </div>
+          </div>
+          <!-- ngStyle -->
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-title text-center">Ejemplo de directiva ngStyle</h3>
+              <hr />
+              <app-ejdirectivangstyle></app-ejdirectivangstyle>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
