@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+// tslint:disable-next-line: quotemark
+import { Component } from "@angular/core";
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   destino = 'Universo';
+
 }

@@ -1,0 +1,29 @@
+ul {
+  text-align: center;
+  list-style: none;
+}
+
+.lakers, .bulls, .celtics {
+  max-width: 600px;
+  height: 120px;
+  background-position-x: 10px;
+  background-position-y: 10px;
+  background-repeat: no-repeat;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #552582;
+  margin-top: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.lakers {
+  background-image: url("http://lorempixel.com/50/50/sports/");
+}
+
+.bulls {
+  background-image: url("http://lorempixel.com/50/50/foot/");
+}
+
+.celtics {
+  background-image: url("http://lorempixel.com/50/50/people/");
+}

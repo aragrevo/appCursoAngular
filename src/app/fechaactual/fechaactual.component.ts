@@ -4,6 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-fechaactual',
   templateUrl: './fechaactual.component.html'
 })
-export  class FechaactualComponent {
+export class FechaactualComponent {
   hoy: any = new Date();
+  dolareuro = 0.94;
 }

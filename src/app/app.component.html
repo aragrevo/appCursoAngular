@@ -9,27 +9,15 @@
   <div class="card">
     <div class="card-header" id="headingOne">
       <h2 class="mb-0">
-        <button
-          class="btn btn-link"
-          type="button"
-          data-toggle="collapse"
-          data-target="#collapseOne"
-          aria-expanded="true"
-          aria-controls="collapseOne"
-        >
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+          aria-expanded="true" aria-controls="collapseOne">
           Data Binding
         </button>
       </h2>
     </div>
-    <div
-      id="collapseOne"
-      class="collapse show"
-      aria-labelledby="headingOne"
-      data-parent="#accordionExample"
-    >
+    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
       <div class="card-body">
         <div class="card-columns">
-
           <div class="card">
             <div class="card-body">
               <h3 class="card-title text-center">
@@ -84,24 +72,13 @@
   <div class="card">
     <div class="card-header" id="headingTwo">
       <h2 class="mb-0">
-        <button
-          class="btn btn-link collapsed"
-          type="button"
-          data-toggle="collapse"
-          data-target="#collapseTwo"
-          aria-expanded="false"
-          aria-controls="collapseTwo"
-        >
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo"
+          aria-expanded="false" aria-controls="collapseTwo">
           Directivas
         </button>
       </h2>
     </div>
-    <div
-      id="collapseTwo"
-      class="collapse"
-      aria-labelledby="headingTwo"
-      data-parent="#accordionExample"
-    >
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
       <div class="card-body">
         <div class="card-columns">
           <!-- ngIf -->
@@ -112,15 +89,78 @@
               <app-ejdirectivangif></app-ejdirectivangif>
             </div>
           </div>
+
           <!-- ngStyle -->
           <div class="card">
             <div class="card-body">
-              <h3 class="card-title text-center">Ejemplo de directiva ngStyle</h3>
+              <h3 class="card-title text-center">
+                Ejemplo de directiva ngStyle
+              </h3>
               <hr />
               <app-ejdirectivangstyle></app-ejdirectivangstyle>
             </div>
           </div>
 
+          <!-- ngClass -->
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-title text-center">
+                Ejemplo de directiva ngClass
+              </h3>
+              <hr />
+              <app-ejdirectivangclass></app-ejdirectivangclass>
+            </div>
+          </div>
+
+          <!-- ngFor -->
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-title text-center">
+                Ejemplo de directiva ngFor
+              </h3>
+              <hr />
+              <app-ejdirectivangfor></app-ejdirectivangfor>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-title text-center">
+                Ejemplo de directiva ngFor con objetos
+              </h3>
+              <hr />
+              <app-arrayobjetos></app-arrayobjetos>
+            </div>
+          </div>
+          <!-- ngSwitch -->
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-title text-center">
+                Ejemplo de directiva ngSwitch
+              </h3>
+              <hr />
+              <app-ejdirectivangswitch></app-ejdirectivangswitch>
+            </div>
+          </div>
+          <!-- miDirectiva -->
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-title text-center">
+                Ejemplo de mi directiva
+              </h3>
+              <hr />
+              <app-ejmidirectiva></app-ejmidirectiva>
+            </div>
+          </div>
+          <!-- @Input -->
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-title text-center">
+                Ejemplo de uso de @Input
+              </h3>
+              <hr />
+              <app-padre></app-padre>
+            </div>
+          </div>
         </div>
       </div>
     </div>
